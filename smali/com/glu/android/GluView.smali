@@ -2096,11 +2096,7 @@
     if-ne v0, v9, :cond_1
 
     .line 449
-    const/16 v0, 0xa
-
-    invoke-static {v0}, Lcom/glu/android/GluUtil;->scaleRelativeToG1(I)I
-
-    move-result v0
+    const/16 v0, 0x5
 
     sput v0, Lcom/glu/android/GluView;->TOUCH_MOVE_THRESHOLD:I
 
