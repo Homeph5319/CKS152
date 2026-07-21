@@ -295,28 +295,62 @@
 .end method
 
 .method public killOldGLThread()V
-    .locals 2
+    .locals 5
 
     .prologue
     .line 1664
-    iget-object v0, p0, Lcom/glu/android/ModifiedGLSurfaceView;->mGLThread:Lcom/glu/android/ModifiedGLSurfaceView$GLThread;
+    iget-object v1, p0, Lcom/glu/android/ModifiedGLSurfaceView;->mGLThread:Lcom/glu/android/ModifiedGLSurfaceView$GLThread;
 
-    const/4 v1, 0x1
+    invoke-static {}, Lcom/glu/android/ModifiedGLSurfaceView;->access$800()Lcom/glu/android/ModifiedGLSurfaceView$GLThreadManager;
 
-    iput-boolean v1, v0, Lcom/glu/android/ModifiedGLSurfaceView$GLThread;->m_shouldDie:Z
+    move-result-object v0
+
+    monitor-enter v0
 
     .line 1665
-    iget-object v0, p0, Lcom/glu/android/ModifiedGLSurfaceView;->mGLThread:Lcom/glu/android/ModifiedGLSurfaceView$GLThread;
+    const/4 v2, 0x1
 
-    invoke-virtual {v0}, Lcom/glu/android/ModifiedGLSurfaceView$GLThread;->onResume()V
+    :try_start_0
+    iput-boolean v2, v1, Lcom/glu/android/ModifiedGLSurfaceView$GLThread;->m_shouldDie:Z
+
+    invoke-virtual {v0}, Ljava/lang/Object;->notifyAll()V
+
+    monitor-exit v0
 
     .line 1666
-    const-wide/16 v0, 0x64
+    goto :goto_0
 
-    invoke-static {v0, v1}, Lcom/glu/android/GluUtil;->sleep(J)V
+    .line 1665
+    :catchall_1
+    move-exception v2
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_1
+
+    throw v2
+
+    .line 1666
+    :goto_0
+    invoke-virtual {v1}, Lcom/glu/android/ModifiedGLSurfaceView$GLThread;->onResume()V
 
     .line 1667
+    const-wide/16 v3, 0x1f4
+
+    :try_start_1
+    invoke-virtual {v1, v3, v4}, Ljava/lang/Thread;->join(J)V
+    :try_end_1
+    .catch Ljava/lang/InterruptedException; {:try_start_1 .. :try_end_1} :catch_0
+
+    .line 1668
+    :goto_1
     return-void
+
+    .line 1667
+    :catch_0
+    move-exception v2
+
+    goto :goto_1
 .end method
 
 .method protected onDetachedFromWindow()V
