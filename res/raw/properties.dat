@@ -1,0 +1,29 @@
+Glu-Test-Localisation = false
+Glu-Softkey-Reverse = false
+Glu-Softkey-Offset = 0
+Glu-Cheats-Enable = false
+Glu-Upsell-URL = http://gcs.glu.com/gcs/android/index.jsp?src=ck
+Glu-Demo-Enabled = false
+Glu-Demo-Play-Limit = 1
+Glu-Demo-Time-Limit = 10000
+Glu-Demo-Game-Limit = 1
+Glu-Demo-Menu = Upgrade
+Glu-Demo-URL = market://details?id=com.glu.android.wsop3
+Glu-Demo-Info-Text = Welcome! This demo has limited play. Would you like to start playing the demo now?
+Glu-Demo-Play-Exp = There are no activations remaining, to continue playing you must upgrade. Would you like to upgrade now?
+Glu-Demo-Time-Exp = You've reached the end of this demo. Upgrade to the full version to continue playing! Would you like to upgrade now?
+Glu-Demo-Upgrade-Prompt = Would you like to upgrade to the full version?
+Glu-Demo-Unavailable-Text = This feature is only available in the full version.
+Glu-gServe-URL = http://ng-bounty-android.glu.com/bounty/
+Glu-Special-File-URL-HVGA = http://rpack.glu.com/ck/special_hvga_BountyHunter_1_5_1.gpk
+Glu-Special-File-URL-WVGA = http://rpack.glu.com/ck/special_wvga_BountyHunter_1_5_1.gpk
+Glu-Special-File-URL-DVGA = http://rpack.glu.com/ck/special_dvga_BountyHunter_1_5_1.gpk
+Glu-Primary-File-URL-HVGA = http://rpack.glu.com/ck/BountyHunter_1_5_1.big
+Glu-Primary-File-URL-WVGA = http://rpack.glu.com/ck/BountyHunter_1_5_1.big
+Glu-Primary-File-URL-DVGA = http://rpack.glu.com/ck/BountyHunter_1_5_1.big
+Glu-Res-File-URL = http://rpack.glu.com/ck/BountyHunter_1_5_1.big
+Glu-Forced-Upgrade-URL = http://market.android.com/details?id=com.glu.android.ck
+Glu-OpenFeint-Enabled = true
+Glu-CKZ-Icon-Disabled = false
+Glu-CKZ-Icon-URL = http://market.android.com/details?id=com.glu.android.zombsniper
+Glu-IAP-Type = google

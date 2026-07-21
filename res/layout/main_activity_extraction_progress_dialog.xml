@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Unpacking archives..." />
+    <ProgressBar android:id="@id/dataManager_progressBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:max="100" android:progress="0" style="?android:progressBarStyleHorizontal" />
+    <TextView android:textSize="16.0sp" android:gravity="center" android:id="@id/dataManager_progressText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="0%" />
+    <TextView android:textSize="14.0sp" android:gravity="start" android:id="@id/dataManager_currentArchiveText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:text="Archive:" />
+    <TextView android:textSize="14.0sp" android:gravity="start" android:id="@id/dataManager_sizeText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Remaining: -- MB" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="?android:buttonBarStyle">
+        <Button android:id="@id/dataManager_pauseButton" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Pause" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+        <Button android:id="@id/dataManager_minimizeButton" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Mini" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+        <Button android:id="@id/dataManager_cancelButton" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Cancel" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

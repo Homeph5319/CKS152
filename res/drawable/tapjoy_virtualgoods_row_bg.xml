@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="#ffdddddd" android:endColor="#ffbbbbbb" android:angle="90.0" android:type="linear" android:gradientRadius="50.0" android:centerColor="#ff999999" />
+    <stroke android:width="@dimen/vg_stroke_width" android:color="@color/virtual_goods_button_color_stroke" />
+    <corners android:radius="10.0dp" />
+    <padding android:left="5.0dp" android:top="5.0dp" android:right="5.0dp" android:bottom="5.0dp" />
+</shape>

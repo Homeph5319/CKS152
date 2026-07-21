@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="of_transparent">#00000000</color>
+    <color name="virtual_goods_button_color_stroke">#ff36366e</color>
+    <color name="virtual_goods_text_color">#ffffffff</color>
+    <color name="virtual_goods_details_text_color">#ff000000</color>
+    <color name="vg_shadow_color">#ff222222</color>
+</resources>

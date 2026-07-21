@@ -1,0 +1,21 @@
+version: 3.0.2
+apkFileName: CKS152.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 5
+  targetSdkVersion: 19
+versionInfo:
+  versionCode: 152
+  versionName: 1.5.2
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- gif
+- png
+- so
+- assets/title.dat
+- res/raw/events.dat
+- res/raw/events_test.dat
