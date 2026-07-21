@@ -831,7 +831,7 @@
     .locals 9
 
     .prologue
-    const/16 v5, 0x10
+    const/16 v5, 0x18
 
     const/4 v1, 0x5
 
@@ -865,12 +865,14 @@
 
     move v3, v1
 
-    move v6, v4
+    const/16 v6, 0x8
 
     invoke-virtual/range {v0 .. v6}, Lcom/glu/android/GluView;->setEGLConfigChooser(IIIIII)V
 
     .line 76
     const/16 v0, 0x235
+
+    const/16 v4, 0x8
 
     invoke-static {v0, v8, v8, v5, v4}, Lcom/glu/android/GluJNI;->initGLAttributes(IIIII)V
 

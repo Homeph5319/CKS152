@@ -142,19 +142,7 @@
 
 .method public static isLowHeapVGA()Z
     .locals 1
-
-    .prologue
-    .line 66
-    sget-boolean v0, Lcom/glu/android/Device;->MOTOROLA_DROID:Z
-
-    if-nez v0, :cond_0
-
-    sget-boolean v0, Lcom/glu/android/Device;->LG_VS740:Z
-
-    if-nez v0, :cond_0
-
-    :cond_0
-    const/4 v0, 0x1
+    const/4 v0, 0x0
 
     return v0
 .end method

@@ -197,6 +197,10 @@
     .param p2, "display"    # Ljavax/microedition/khronos/egl/EGLDisplay;
 
     .prologue
+    .line 9000
+    const/16 v0, 0x18
+
+    iput v0, p0, Lcom/glu/android/GluConfigChooser;->m_depthSize:I
     const/4 v4, 0x0
 
     .line 68
