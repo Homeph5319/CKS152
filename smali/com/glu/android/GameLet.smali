@@ -371,7 +371,7 @@
     sput-object v0, Lcom/glu/android/GameLet;->LIBRARY:Ljava/lang/String;
 
     .line 98
-    const-string v0, "BountyHunter.big"
+    const-string v0, "BountyHunter.small"
 
     sput-object v0, Lcom/glu/android/GameLet;->RESOURCE_FILENAME:Ljava/lang/String;
 
@@ -380,19 +380,19 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "BountyHunter.big"
+    const-string v1, "BountyHunter.small"
 
     aput-object v1, v0, v4
 
     const/4 v1, 0x1
 
-    const-string v2, "BountyHunter.big"
+    const-string v2, "BountyHunter.small"
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x2
 
-    const-string v2, "BountyHunter.big"
+    const-string v2, "BountyHunter.small"
 
     aput-object v2, v0, v1
 
