@@ -186,554 +186,248 @@
 .method public onDrawFrame(Ljavax/microedition/khronos/opengles/GL10;)V
     .locals 18
     .param p1, "arg0"    # Ljavax/microedition/khronos/opengles/GL10;
-
-    .prologue
-    .line 54
     move-object/from16 v0, p0
-
     iget-boolean v12, v0, Lcom/glu/android/GameRenderer;->m_appDone:Z
-
     if-eqz v12, :cond_1
-
-    .line 177
     :cond_0
     :goto_0
     return-void
-
-    .line 57
     :cond_1
     sget-object v12, Lcom/glu/android/GameLet;->instance:Lcom/glu/android/GameLet;
-
     iget-boolean v12, v12, Lcom/glu/android/GameLet;->m_destroyQueued:Z
-
     if-eqz v12, :cond_2
-
-    .line 59
     sget-object v12, Lcom/glu/android/GameLet;->instance:Lcom/glu/android/GameLet;
-
     const/4 v13, 0x1
-
     iput-boolean v13, v12, Lcom/glu/android/GameLet;->destroyedFromAndroid:Z
-
-    .line 61
     const/4 v12, 0x3
-
     invoke-static {v12}, Lcom/glu/android/GluJNI;->systemEvent(I)V
-
-    .line 63
     sget-object v12, Lcom/glu/android/GameLet;->instance:Lcom/glu/android/GameLet;
-
     invoke-virtual {v12}, Lcom/glu/android/GameLet;->finishApp()V
-
-    .line 65
     const/4 v12, 0x1
-
     move-object/from16 v0, p0
-
     iput-boolean v12, v0, Lcom/glu/android/GameRenderer;->m_appDone:Z
-
     goto :goto_0
-
-    .line 72
     :cond_2
     invoke-static {}, Ljavax/microedition/khronos/egl/EGLContext;->getEGL()Ljavax/microedition/khronos/egl/EGL;
-
     move-result-object v1
-
     check-cast v1, Ljavax/microedition/khronos/egl/EGL10;
-
-    .line 73
-    .local v1, "context":Ljavax/microedition/khronos/egl/EGL10;
     invoke-interface {v1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetError()I
-
     move-result v12
-
     const/16 v13, 0x300e
-
     if-eq v12, v13, :cond_3
-
     move-object/from16 v0, p0
-
     iget-boolean v12, v0, Lcom/glu/android/GameRenderer;->m_hasSurface:Z
-
     if-nez v12, :cond_4
-
-    .line 75
     :cond_3
     const-string v12, "Context lost OR surface unavavilable."
-
     invoke-static {v12}, Lcom/glu/android/Debug;->log(Ljava/lang/String;)V
-
-    .line 76
     const/4 v12, 0x0
-
     move-object/from16 v0, p0
-
     iput-boolean v12, v0, Lcom/glu/android/GameRenderer;->m_hasSurface:Z
-
     goto :goto_0
-
-    .line 80
     :cond_4
     sget-object v12, Lcom/glu/android/GameLet;->instance:Lcom/glu/android/GameLet;
-
     iget-boolean v12, v12, Lcom/glu/android/GameLet;->m_nativeSuspended:Z
-
     if-eqz v12, :cond_6
-
-    .line 82
     const/4 v9, 0x0
-
-    .line 86
-    .local v9, "sleepCount":I
     :cond_5
     const/4 v12, 0x6
-
     if-eq v9, v12, :cond_0
-
-    .line 89
     const-wide/16 v12, 0x14d
-
     invoke-static {v12, v13}, Lcom/glu/android/GluUtil;->sleep(J)V
-
-    .line 90
     add-int/lit8 v9, v9, 0x1
-
-    .line 91
     sget-object v12, Lcom/glu/android/GameLet;->instance:Lcom/glu/android/GameLet;
-
     iget-boolean v12, v12, Lcom/glu/android/GameLet;->m_nativeSuspended:Z
-
     if-nez v12, :cond_5
-
-    .line 95
-    .end local v9    # "sleepCount":I
     :cond_6
     const/16 v10, 0x1e
-
-    .line 97
-    .local v10, "throttleHzToUse":I
     sget-object v12, Lcom/glu/android/GluVideoView;->instance:Lcom/glu/android/GluVideoView;
-
     if-eqz v12, :cond_7
-
     sget-object v12, Lcom/glu/android/GluVideoView;->instance:Lcom/glu/android/GluVideoView;
-
     invoke-virtual {v12}, Lcom/glu/android/GluVideoView;->videoPlaybackActiveOrPending()Z
-
     move-result v12
-
     if-nez v12, :cond_8
-
     :cond_7
     sget-object v12, Lcom/glu/android/GluCanvasOverlayGroup;->instance:Lcom/glu/android/GluCanvasOverlayGroup;
-
     if-eqz v12, :cond_c
-
     sget-object v12, Lcom/glu/android/GluCanvasOverlayGroup;->instance:Lcom/glu/android/GluCanvasOverlayGroup;
-
     const/4 v13, 0x3
-
     invoke-virtual {v12, v13}, Lcom/glu/android/GluCanvasOverlayGroup;->isViewVisible(I)Z
-
     move-result v12
-
     if-eqz v12, :cond_c
-
     :cond_8
     const/4 v7, 0x0
-
-    .line 98
-    .local v7, "shouldPaint":I
     :goto_1
     const/16 v11, 0x21
-
-    .line 104
-    .local v11, "throttleMSToUse":I
     move-object/from16 v0, p0
-
     iget v12, v0, Lcom/glu/android/GameRenderer;->numTicks:I
-
     if-ltz v12, :cond_9
-
-    .line 107
     :cond_9
     sget-object v12, Lcom/glu/android/GameLet;->instance:Lcom/glu/android/GameLet;
-
     iget-boolean v12, v12, Lcom/glu/android/GameLet;->m_JNIinit:Z
-
     if-eqz v12, :cond_13
-
-    .line 109
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
     move-result-wide v2
-
-    .line 111
-    .local v2, "curTime":J
     move-object/from16 v0, p0
-
     iget-wide v12, v0, Lcom/glu/android/GameRenderer;->lastTickTime:J
-
     sub-long v13, v2, v12
-
     move-object/from16 v0, p0
-
     iget v12, v0, Lcom/glu/android/GameRenderer;->numTicks:I
-
     if-nez v12, :cond_d
-
     const/4 v12, 0x0
-
     :goto_2
     int-to-long v15, v12
-
     sub-long v5, v13, v15
-
-    .line 113
-    .local v5, "deltaMS":J
     sget-object v12, Lcom/glu/android/Debug;->CONSOLE:Lcom/glu/android/Debug$Console;
-
     invoke-virtual {v12, v5, v6}, Lcom/glu/android/Debug$Console;->logFPS(J)V
-
-    .line 116
-    const-wide/16 v12, 0x21
-
-    cmp-long v12, v5, v12
-
-    if-gez v12, :cond_a
-
-    .line 118
-    const-wide/16 v12, 0x21
-
-    sub-long/2addr v12, v5
-
-    invoke-static {v12, v13}, Lcom/glu/android/GluUtil;->sleep(J)V
-
-    .line 119
-    const-wide/16 v5, 0x21
-
-    .line 120
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide v2
-
-    .line 124
     :cond_a
     sget-object v12, Lcom/glu/android/Debug;->CONSOLE:Lcom/glu/android/Debug$Console;
-
     invoke-virtual {v12}, Lcom/glu/android/Debug$Console;->getFPSDelay()I
-
     move-result v4
-
-    .line 125
-    .local v4, "debugDelay":I
     :cond_b
     :goto_3
     if-lez v4, :cond_f
-
-    .line 127
     const/16 v12, 0x1f4
-
     if-le v4, v12, :cond_e
-
     const/16 v8, 0x1f4
-
-    .line 128
-    .local v8, "sleep":I
     :goto_4
     int-to-long v12, v8
-
     invoke-static {v12, v13}, Lcom/glu/android/GluUtil;->sleep(J)V
-
-    .line 129
     sub-int/2addr v4, v8
-
-    .line 130
     sget-object v12, Lcom/glu/android/Debug;->CONSOLE:Lcom/glu/android/Debug$Console;
-
     invoke-virtual {v12}, Lcom/glu/android/Debug$Console;->getFPSDelay()I
-
     move-result v12
-
     if-le v4, v12, :cond_b
-
-    .line 131
     sget-object v12, Lcom/glu/android/Debug;->CONSOLE:Lcom/glu/android/Debug$Console;
-
     invoke-virtual {v12}, Lcom/glu/android/Debug$Console;->getFPSDelay()I
-
     move-result v4
-
     goto :goto_3
-
-    .line 97
-    .end local v2    # "curTime":J
-    .end local v4    # "debugDelay":I
-    .end local v5    # "deltaMS":J
-    .end local v7    # "shouldPaint":I
-    .end local v8    # "sleep":I
-    .end local v11    # "throttleMSToUse":I
     :cond_c
     const/4 v7, 0x1
-
     goto :goto_1
-
-    .line 111
-    .restart local v2    # "curTime":J
-    .restart local v7    # "shouldPaint":I
-    .restart local v11    # "throttleMSToUse":I
     :cond_d
     const/4 v12, 0x0
-
     goto :goto_2
-
-    .restart local v4    # "debugDelay":I
-    .restart local v5    # "deltaMS":J
     :cond_e
     move v8, v4
-
-    .line 127
     goto :goto_4
-
-    .line 135
     :cond_f
     :goto_5
     sget-object v12, Lcom/glu/android/Debug;->CONSOLE:Lcom/glu/android/Debug$Console;
-
     invoke-virtual {v12}, Lcom/glu/android/Debug$Console;->isTickStopped()Z
-
     move-result v12
-
     if-eqz v12, :cond_10
-
-    .line 136
     const-wide/16 v12, 0x64
-
     invoke-static {v12, v13}, Lcom/glu/android/GluUtil;->sleep(J)V
-
     goto :goto_5
-
-    .line 139
     :cond_10
     const-wide/16 v12, 0x14d
-
     cmp-long v12, v5, v12
-
     if-lez v12, :cond_11
-
-    .line 141
     new-instance v12, Ljava/lang/StringBuilder;
-
     invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
-
     const-string v13, "Excessive tick "
-
     invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     move-result-object v12
-
     invoke-virtual {v12, v5, v6}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
     move-result-object v12
-
     const-string v13, "ms culled to "
-
     invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     move-result-object v12
-
     const/16 v13, 0x14d
-
     invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
     move-result-object v12
-
     const-string v13, "ms"
-
     invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     move-result-object v12
-
     invoke-virtual {v12}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     move-result-object v12
-
     invoke-static {v12}, Lcom/glu/android/Debug;->log(Ljava/lang/String;)V
-
-    .line 142
     const-wide/16 v5, 0x14d
-
-    .line 146
     :cond_11
     sget-object v12, Lcom/glu/android/GameLet;->instance:Lcom/glu/android/GameLet;
-
     if-eqz v12, :cond_0
-
-    .line 150
     invoke-static {}, Lcom/glu/android/GluUtil;->resFileExists()Z
-
     move-result v12
-
     if-nez v12, :cond_14
-
-    .line 152
     invoke-static {}, Lcom/glu/android/GluUtil;->isModalDialogOpen()Z
-
     move-result v12
-
     if-nez v12, :cond_12
-
-    .line 154
     const/high16 v12, 0x7f070000
-
     invoke-static {v12}, Lcom/glu/android/GluUtil;->getString(I)Ljava/lang/String;
-
     move-result-object v12
-
     const v13, 0x7f07003b
-
     invoke-static {v13}, Lcom/glu/android/GluUtil;->getString(I)Ljava/lang/String;
-
     move-result-object v13
-
     const v14, 0x7f07003c
-
     invoke-static {v14}, Lcom/glu/android/GluUtil;->getString(I)Ljava/lang/String;
-
     move-result-object v14
-
     const v15, 0x7f07003d
-
     invoke-static {v15}, Lcom/glu/android/GluUtil;->getString(I)Ljava/lang/String;
-
     move-result-object v15
-
     const-string v16, "GluCallbacks"
-
     const-string v17, "sdDialogCallback"
-
     invoke-static/range {v16 .. v17}, Lcom/glu/android/GluUtil;->getMethod(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/reflect/Method;
-
     move-result-object v16
-
     invoke-static/range {v12 .. v16}, Lcom/glu/android/GluUtil;->openModalDialog(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/reflect/Method;)V
-
-    .line 173
     :cond_12
     :goto_6
     move-object/from16 v0, p0
-
     iput-wide v2, v0, Lcom/glu/android/GameRenderer;->lastTickTime:J
-
-    .line 176
-    .end local v2    # "curTime":J
-    .end local v4    # "debugDelay":I
-    .end local v5    # "deltaMS":J
     :cond_13
     move-object/from16 v0, p0
-
     iget v12, v0, Lcom/glu/android/GameRenderer;->numTicks:I
-
     add-int/lit8 v12, v12, 0x1
-
     move-object/from16 v0, p0
-
     iput v12, v0, Lcom/glu/android/GameRenderer;->numTicks:I
-
     goto/16 :goto_0
-
-    .line 161
-    .restart local v2    # "curTime":J
-    .restart local v4    # "debugDelay":I
-    .restart local v5    # "deltaMS":J
     :cond_14
     move-object/from16 v0, p0
-
     iget-object v13, v0, Lcom/glu/android/GameRenderer;->SPECIAL_INTERRUPT_HANDLING_LOCK:Ljava/lang/Object;
-
     monitor-enter v13
-
     const/4 v12, 0x1
-
     :try_start_0
     move-object/from16 v0, p0
-
     iput-boolean v12, v0, Lcom/glu/android/GameRenderer;->m_drawThreadInNative:Z
-
     monitor-exit v13
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 162
     sget-object v12, Lcom/glu/android/GameLet;->instance:Lcom/glu/android/GameLet;
-
     invoke-virtual {v12}, Lcom/glu/android/GameLet;->reportKeyboardState()V
-
-    .line 163
     long-to-int v12, v5
-
     invoke-static {v12, v7}, Lcom/glu/android/GluJNI;->tickAndDraw(II)V
-
-    .line 164
     move-object/from16 v0, p0
-
     iget-object v13, v0, Lcom/glu/android/GameRenderer;->SPECIAL_INTERRUPT_HANDLING_LOCK:Ljava/lang/Object;
-
     monitor-enter v13
-
     const/4 v12, 0x0
-
     :try_start_1
     move-object/from16 v0, p0
-
     iput-boolean v12, v0, Lcom/glu/android/GameRenderer;->m_drawThreadInNative:Z
-
     monitor-exit v13
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
-
-    .line 165
     move-object/from16 v0, p0
-
     iget-boolean v12, v0, Lcom/glu/android/GameRenderer;->m_immediateSaveAfterTick:Z
-
     if-eqz v12, :cond_12
-
-    .line 167
     const/4 v12, 0x0
-
     move-object/from16 v0, p0
-
     iput-boolean v12, v0, Lcom/glu/android/GameRenderer;->m_immediateSaveAfterTick:Z
-
-    .line 168
     const/16 v12, 0x9
-
     invoke-static {v12}, Lcom/glu/android/GluJNI;->systemEvent(I)V
-
     goto :goto_6
-
-    .line 161
     :catchall_0
     move-exception v12
-
     :try_start_2
     monitor-exit v13
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
-
     throw v12
-
-    .line 164
     :catchall_1
     move-exception v12
-
     :try_start_3
     monitor-exit v13
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
-
     throw v12
 .end method
 
