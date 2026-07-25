@@ -13,29 +13,38 @@
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
-    .locals 2
+    .locals 6
     .param p1, "context"    # Landroid/content/Context;
-
     .prologue
     invoke-direct {p0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     const/4 v0, 0x0
-
-    const/high16 v1, -0x1000000
-
-    invoke-virtual {p0, v1}, Lcom/glu/android/GluFrameLayout;->setBackgroundColor(I)V
-
     iput-object v0, p0, Lcom/glu/android/GluFrameLayout;->m_gameView:Lcom/glu/android/GluView;
-
     iput-object v0, p0, Lcom/glu/android/GluFrameLayout;->m_gameOverlayGroup:Lcom/glu/android/GluCanvasOverlayGroup;
-
     iput-object v0, p0, Lcom/glu/android/GluFrameLayout;->m_gameVideoView:Lcom/glu/android/GluVideoView;
 
-    const v0, 0x402aaaab
+    # --- get actual device DisplayMetrics ---
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    move-result-object v1
+    invoke-virtual {v1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    move-result-object v1
 
-    invoke-virtual {p0, v0}, Lcom/glu/android/GluFrameLayout;->setScaleX(F)V
+    # v2 = device height in pixels (actual Y axis)
+    iget v2, v1, Landroid/util/DisplayMetrics;->heightPixels:I
 
-    invoke-virtual {p0, v0}, Lcom/glu/android/GluFrameLayout;->setScaleY(F)V
+    # convert to float
+    int-to-float v2, v2
+
+    # base engine resolution height = 480
+    const/16 v3, 0x1e0		# 480
+    int-to-float v3, v3
+
+    # scaleY = deviceHeight / 480f
+    div-float v4, v2, v3
+
+    # lock X to same scale as Y to preserve 16:9, instead of stretching to full device width
+    invoke-virtual {p0, v4}, Lcom/glu/android/GluFrameLayout;->setScaleX(F)V
+    invoke-virtual {p0, v4}, Lcom/glu/android/GluFrameLayout;->setScaleY(F)V
 
     invoke-static {p0}, Lcom/glu/android/GluUtil;->doStandardViewGroupConfiguration(Landroid/view/ViewGroup;)V
 
@@ -126,9 +135,9 @@
 
     sub-int v2, p5, p3
 
-    const/16 v3, 0x474
+    const/16 v3, 0x320    # 800
 
-    const/16 v4, 0x21c
+    const/16 v4, 0x1e0    # 480
 
     sub-int v5, v1, v3
 
@@ -153,9 +162,9 @@
 
     sub-int v2, p5, p3
 
-    const/16 v3, 0x474
+    const/16 v3, 0x320    # 800
 
-    const/16 v4, 0x21c
+    const/16 v4, 0x1e0    # 480
 
     sub-int v5, v1, v3
 
@@ -180,9 +189,9 @@
 
     sub-int v2, p5, p3
 
-    const/16 v3, 0x474
+    const/16 v3, 0x320    # 800
 
-    const/16 v4, 0x21c
+    const/16 v4, 0x1e0    # 480
 
     sub-int v5, v1, v3
 
