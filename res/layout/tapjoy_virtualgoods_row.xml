@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout00" android:background="@drawable/tapjoy_virtualgoods_row_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/AppIcon" android:paddingRight="5.0dp" android:layout_width="50.0dp" android:layout_height="50.0dp" android:scaleType="fitCenter" />
+    <LinearLayout android:id="@id/LinearLayout01" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_weight="1.0">
+            <TextView android:id="@id/Index" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Index" />
+            <TextView android:textColor="#ff777777" android:ellipsize="end" android:id="@id/VGType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VG Type" android:maxLines="1" android:scrollHorizontally="true" android:layout_toRightOf="@id/AppIcon" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/VGName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VG Name" android:maxLines="1" android:scrollHorizontally="true" android:layout_toRightOf="@id/AppIcon" android:layout_below="@id/VGType" />
+            <TextView android:textColor="#ff777777" android:ellipsize="end" android:id="@id/VGAttribute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VG Attribute" android:maxLines="1" android:scrollHorizontally="true" android:layout_toRightOf="@id/AppIcon" android:layout_below="@id/VGName" android:layout_alignParentRight="false" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/RelativeLayout02" android:layout_width="90.0dp" android:layout_height="match_parent">
+            <TextView android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="marquee" android:id="@id/points" android:paddingRight="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="points" android:maxLines="1" android:scrollHorizontally="true" android:layout_toLeftOf="@id/ImageView01" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

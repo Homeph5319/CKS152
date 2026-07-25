@@ -1,0 +1,920 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: +ky9C0CjQ/7AsHFTfSktU7bK/kI=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA1-Digest: YC9Ely+AM1A4u+72+6VrWpDRZqs=
+
+Name: assets/archiveData.zip.001
+SHA1-Digest: mLBHVIxyuykm1XaFGVmBFz+wtxo=
+
+Name: assets/archiveUserData.zip.001
+SHA1-Digest: RUuEMs+CRbvSW2w4yTbh7zOijqg=
+
+Name: assets/archiveUserData.zip.002
+SHA1-Digest: 2GFdWOTYgvjfUL91jIOh/zAiN4I=
+
+Name: assets/archiveUserData.zip.003
+SHA1-Digest: jrkmqALZPqhhvt4Oaz1hj+kPqgA=
+
+Name: assets/archiveUserData.zip.004
+SHA1-Digest: 0sXhLvDwNA6KEnbMVnRqB1sPCbs=
+
+Name: assets/archiveUserData.zip.005
+SHA1-Digest: l7r8bMVhhbp9syqMwgIlDGsrRHs=
+
+Name: assets/archiveUserData.zip.006
+SHA1-Digest: DZApUdFxcWGLcV0lWnS3xlUCr44=
+
+Name: assets/archiveUserData.zip.007
+SHA1-Digest: dhu5nuNOtQ5G24yHYdyXyANAVns=
+
+Name: assets/title.dat
+SHA1-Digest: VZ1M1ge+kMSAuxm/c3q7FwLaXss=
+
+Name: assets/webui/dashboard/achievements.json
+SHA1-Digest: FuzXaudlsq4F/p649uTWKscteYI=
+
+Name: assets/webui/dashboard/friend_requests.json
+SHA1-Digest: P9dffCU3BaFI38ynOjc8okVLINA=
+
+Name: assets/webui/dashboard/friends.json
+SHA1-Digest: Ps4TXKuqom590IcfGPERY5cuuAY=
+
+Name: assets/webui/dashboard/game.json
+SHA1-Digest: TXqZkf3EMjvCmOo5O9xz3mxXgDo=
+
+Name: assets/webui/dashboard/games.json
+SHA1-Digest: n34iVnRLru6emk0yxjSC+6MmtYE=
+
+Name: assets/webui/dashboard/leaderboard.json
+SHA1-Digest: IbTmh5qY8Zlrg6BycCIfIwX7MvM=
+
+Name: assets/webui/dashboard/leaderboards.json
+SHA1-Digest: /BBSruaDkI8tOk8p8LddYzb0FwI=
+
+Name: assets/webui/dashboard/local_game.json
+SHA1-Digest: aKQ+E15UQCqpUIOFqI+ZGxtBseg=
+
+Name: assets/webui/dashboard/me/friends.json
+SHA1-Digest: Scs8NND+iqlCENtIFg9RnStot+g=
+
+Name: assets/webui/dashboard/user.json
+SHA1-Digest: 74mFWW1s+NwwFRN9gm/6xkl/j2c=
+
+Name: assets/webui/dashboard/user_search.json
+SHA1-Digest: 0XOhmJiW2gH4H5+K5KVd1QO4qGQ=
+
+Name: assets/webui/facebook/friends.json
+SHA1-Digest: liD6iGY2vOBPEgSU2EyhKvYIJIk=
+
+Name: assets/webui/images/att_of_logo.png
+SHA1-Digest: WCRl3cUtD4gyD5vJo6+nGl7pKwU=
+
+Name: assets/webui/images/blue_bg_gradient.png
+SHA1-Digest: cQGoYYvfsleW3fnHKSANHgi37GA=
+
+Name: assets/webui/images/blue_button.png
+SHA1-Digest: c2BnbATG29szVMjfDB0YzQIwjos=
+
+Name: assets/webui/images/blue_button_hit.png
+SHA1-Digest: b+8f/2tbIMgrGVXSdnptRmiPAB0=
+
+Name: assets/webui/images/blue_line.png
+SHA1-Digest: Zj/zvVl9ByhS8msa8nvHR4NbyGo=
+
+Name: assets/webui/images/bottom_body.png
+SHA1-Digest: /Of7z5JgJ5boRq4YGyt0mOHZQl4=
+
+Name: assets/webui/images/button.gray.hdpi.png
+SHA1-Digest: vaGYAf6Mlp1iZ/klIxALI1mIoQU=
+
+Name: assets/webui/images/button.gray.hit.hdpi.png
+SHA1-Digest: Fa/dfmgI5OuZSjy4K/Yr4/d/BRw=
+
+Name: assets/webui/images/button.gray.hit.mdpi.png
+SHA1-Digest: uTGcuue4mM7r8vi0rBxIIEl0MVI=
+
+Name: assets/webui/images/button.gray.mdpi.png
+SHA1-Digest: 4ouu3PL7VjkKHP16EMmYfW3JcZE=
+
+Name: assets/webui/images/button.gray_price.hdpi.png
+SHA1-Digest: F0V9IgmAvGj1hvSXQHyJjXl7MKQ=
+
+Name: assets/webui/images/button.gray_price.mdpi.png
+SHA1-Digest: +F3Ah5scBKJBiwrjWWkgshY/sQs=
+
+Name: assets/webui/images/button.green.hdpi.png
+SHA1-Digest: s0arzvlkUhQO2ThDLwPhqsluluo=
+
+Name: assets/webui/images/button.green.hit.hdpi.png
+SHA1-Digest: 6nD51KgZ3sv2vG9Da48RTppvw6M=
+
+Name: assets/webui/images/button.green.hit.mdpi.png
+SHA1-Digest: dZcy/LbGlWpRjdcSPav0uCdbbN8=
+
+Name: assets/webui/images/button.green.mdpi.png
+SHA1-Digest: xN/Wm244cJV8gdp50osmrjJjtbY=
+
+Name: assets/webui/images/button_check.hdpi.png
+SHA1-Digest: n+7Rbmy7KVFMpJCGaYQv1hO4SXE=
+
+Name: assets/webui/images/button_check.mdpi.png
+SHA1-Digest: shrWjll9fDFkTmDjkPbMe3ygyqA=
+
+Name: assets/webui/images/button_checked.hdpi.png
+SHA1-Digest: rW+ODRO/jycXVF8YRjb7GC04YRw=
+
+Name: assets/webui/images/button_checked.mdpi.png
+SHA1-Digest: xdnyFFMnFlKqIDlbxlBEMobZ8w4=
+
+Name: assets/webui/images/carrot.gif
+SHA1-Digest: ZGI2g4G0N1bZZyrn69YpnoTDoJM=
+
+Name: assets/webui/images/carrot.png
+SHA1-Digest: 3Y/INo6T0tDmQ0UwJS18P072E+8=
+
+Name: assets/webui/images/cell.gray.mdpi.png
+SHA1-Digest: MczbRHy3IQb1V0IPnhemihMpJHk=
+
+Name: assets/webui/images/cell_table_hit.hdpi.png
+SHA1-Digest: L21Htowvxz8U/VVPwNe5UTPH+7Q=
+
+Name: assets/webui/images/cell_table_hit.mdpi.png
+SHA1-Digest: tQPKPWro8g7b7tqkoQMBJLZdmiw=
+
+Name: assets/webui/images/circles.hdpi.png
+SHA1-Digest: owQWevnE+U/ShbJc0Jjb91sqjgw=
+
+Name: assets/webui/images/circles.mdpi.png
+SHA1-Digest: 4ZAa8yVXCXTgg/rXeWwEPsg9ZiI=
+
+Name: assets/webui/images/feint_spotlight.hdpi.png
+SHA1-Digest: OsL1HL8sNWFf9P4Z7nkCShAi+x4=
+
+Name: assets/webui/images/feint_spotlight.mdpi.png
+SHA1-Digest: vufz1awWgpKqFLLPc0PvEgzOPxA=
+
+Name: assets/webui/images/frame.profile.hdpi.png
+SHA1-Digest: pV1UkTzOCx4IZyvTp4yqkikI4LQ=
+
+Name: assets/webui/images/frame.profile.mdpi.png
+SHA1-Digest: rskCBpMzyLGZcJje9cjJ00TzYFM=
+
+Name: assets/webui/images/frame.small.hdpi.png
+SHA1-Digest: aZuhJzp2Q4u5XFG15jSaTMblvvU=
+
+Name: assets/webui/images/frame.small.mdpi.png
+SHA1-Digest: gSlat2q4KKJ0U2a/qv4oiORQxIA=
+
+Name: assets/webui/images/frame_large.png
+SHA1-Digest: yvBaqzpB26iQA1km8SwwnaGxtR8=
+
+Name: assets/webui/images/frame_small.png
+SHA1-Digest: kuIFZwZ4/VcUVvxxbUTPCltdGcY=
+
+Name: assets/webui/images/green_bar.png
+SHA1-Digest: M+J+nmcp5gdVdvzW4tsjudIYH2A=
+
+Name: assets/webui/images/header_bg.hdpi.png
+SHA1-Digest: dyML/xpJTVdZDpCrM/XO5C//gQo=
+
+Name: assets/webui/images/header_bg.mdpi.png
+SHA1-Digest: bzJnI6wHv1ZtdNnShf2N3ZScqD0=
+
+Name: assets/webui/images/icon.achievement.gamerscore_coin.hdpi.png
+SHA1-Digest: LfPz/jhTmk5obSfqsAq/4JH4oq0=
+
+Name: assets/webui/images/icon.achievement.gamerscore_coin.mdpi.png
+SHA1-Digest: Xp0yrkbAkAkkctvB80q2P0wSif4=
+
+Name: assets/webui/images/icon.achievement.hdpi.png
+SHA1-Digest: dsoH1X4iKU0qTD06hgfJR2z39UA=
+
+Name: assets/webui/images/icon.achievement.locked.hdpi.png
+SHA1-Digest: zg2smK+oBhXhQ3FNTeyOjtD1bv0=
+
+Name: assets/webui/images/icon.achievement.locked.mdpi.png
+SHA1-Digest: phsyu+B4HXygbicm9XKjAI23mCM=
+
+Name: assets/webui/images/icon.achievement.mdpi.png
+SHA1-Digest: M4a+UvZWZN5OTuGVb0BkxeuNft4=
+
+Name: assets/webui/images/icon.achievement.unlocked.hdpi.png
+SHA1-Digest: ViluqE//87Kwwf3JWWqaHOeiuUU=
+
+Name: assets/webui/images/icon.achievement.unlocked.mdpi.png
+SHA1-Digest: V0vd83lQmPVWQHuMgs6MBILKw+M=
+
+Name: assets/webui/images/icon.friend.hdpi.png
+SHA1-Digest: M3bYMzbWhqFlDbYygtkjQAQxaAI=
+
+Name: assets/webui/images/icon.friend.mdpi.png
+SHA1-Digest: hKDwBiCJyejsoFA6NLbOxSv+3xw=
+
+Name: assets/webui/images/icon.friends.hdpi.png
+SHA1-Digest: iHT892tFh/daFtcpGh2LF2b2X/o=
+
+Name: assets/webui/images/icon.friends.mdpi.png
+SHA1-Digest: JKUU2uTdY5oIWOKBVGV3JLuHWZc=
+
+Name: assets/webui/images/icon.game.hdpi.png
+SHA1-Digest: FEIYXDYYUgr9o+loujfps8Mn3d8=
+
+Name: assets/webui/images/icon.game.mdpi.png
+SHA1-Digest: eGC+bCEIGDoiqoIQz0xHRU5rZRY=
+
+Name: assets/webui/images/icon.leaderboard.hdpi.png
+SHA1-Digest: 3R9Y3EUYl3eIPSoBVJw49z9+peo=
+
+Name: assets/webui/images/icon.leaderboard.mdpi.png
+SHA1-Digest: ZGBw2LE9MiUpD+b5/zlk30vfvgs=
+
+Name: assets/webui/images/icon.leaf.gray.hdpi.png
+SHA1-Digest: 8j/NQlZIE8KVHoh9oS8qW9ii+Ck=
+
+Name: assets/webui/images/icon.leaf.gray.mdpi.png
+SHA1-Digest: mDBtMWqkMFQKWAg3fuRFuzLdndI=
+
+Name: assets/webui/images/icon.leaf.green.hdpi.png
+SHA1-Digest: lfOqHgIOxBscJHPzOj0qR0hvnMY=
+
+Name: assets/webui/images/icon.leaf.green.mdpi.png
+SHA1-Digest: KExfierftA/+KacKbcbbI46nGhI=
+
+Name: assets/webui/images/icon.leaf.white.hdpi.png
+SHA1-Digest: 56SCy407eEze0d5eedyI9nXqlko=
+
+Name: assets/webui/images/icon.leaf.white.mdpi.png
+SHA1-Digest: pOKNVNA4lU6EkQ/X058eRw9Rsks=
+
+Name: assets/webui/images/icon.play.hdpi.png
+SHA1-Digest: V7Q3vqT0Y/aHjDwqDObUJmskFO8=
+
+Name: assets/webui/images/icon.play.mdpi.png
+SHA1-Digest: IMyiV56AMM06TOa6W7W2NUP71So=
+
+Name: assets/webui/images/icon.search.button.hdpi.png
+SHA1-Digest: JVOKVpK/kE8qWniFx2ZBx6bY84Y=
+
+Name: assets/webui/images/icon.search.button.mdpi.png
+SHA1-Digest: Sl44nXD8ZHnGdY4fAjoozuS17OM=
+
+Name: assets/webui/images/icon.search.hdpi.png
+SHA1-Digest: hWYeEa3beScJ6gtNKUxNM+ZB1FI=
+
+Name: assets/webui/images/icon.search.mdpi.png
+SHA1-Digest: 5ZZt+pYZmYBF8olCLRRU58IvIfk=
+
+Name: assets/webui/images/icon.user.female.large.mdpi.png
+SHA1-Digest: iUur/tO986u/Os6dXaTsKw1smXQ=
+
+Name: assets/webui/images/icon.user.female.mdpi.png
+SHA1-Digest: vTa7vsIusIX9OG1E6FXAnBQTJyM=
+
+Name: assets/webui/images/icon.user.male.hdpi.png
+SHA1-Digest: e1PHA4x3dNguxfdRiOLB48BIXFc=
+
+Name: assets/webui/images/icon.user.male.large.hdpi.png
+SHA1-Digest: YnIdBAoh7siJj+OrqTp2ZDhirKI=
+
+Name: assets/webui/images/icon.user.male.large.mdpi.png
+SHA1-Digest: warR0bj5ysDILU4id2i3IUzikq8=
+
+Name: assets/webui/images/icon.user.male.mdpi.png
+SHA1-Digest: AmtsZgw3ymS1akxpXWubtyD32Lg=
+
+Name: assets/webui/images/icon.user.male.udpi.png
+SHA1-Digest: T4G5sdM35Pp1lwjF+8+EcgDtXEs=
+
+Name: assets/webui/images/icon_facebook_large.hdpi.png
+SHA1-Digest: 3bKlRNjF7HVEFXDeOZm6zU3sbJg=
+
+Name: assets/webui/images/icon_facebook_large.mdpi.png
+SHA1-Digest: IyE1Uk0Nf2u7H9l11oPbzvgpkGw=
+
+Name: assets/webui/images/icon_facebook_sm.hdpi.png
+SHA1-Digest: AdPZortDG00HpJjJvEWWGjkxIA0=
+
+Name: assets/webui/images/icon_facebook_sm.mdpi.png
+SHA1-Digest: z45ykpQi7ooQi/ZZid7fxlqaApo=
+
+Name: assets/webui/images/input.text.hdpi.png
+SHA1-Digest: dLy8CMNjyonpEy8CcWIFJakhOQA=
+
+Name: assets/webui/images/input.text.mdpi.png
+SHA1-Digest: rOzZyKifkUiJuIXOpX54Hh2Fjlk=
+
+Name: assets/webui/images/intro.achievements.hdpi.png
+SHA1-Digest: kS5xIMYt1V7LQm3Ctf8vNSAQNYY=
+
+Name: assets/webui/images/intro.achievements.mdpi.png
+SHA1-Digest: MQnNjQRRBDUzQvbUCIB0hngbIjQ=
+
+Name: assets/webui/images/intro.friends.hdpi.png
+SHA1-Digest: Pz16rR/7Y5PSqP9cmiMjsX0BMgM=
+
+Name: assets/webui/images/intro.friends.mdpi.png
+SHA1-Digest: qEaCFHMYP74j+cM+pBh/8+d11+0=
+
+Name: assets/webui/images/intro.games.hdpi.png
+SHA1-Digest: /+DoYKlgt2CZdfJJNrPFd4GMWL4=
+
+Name: assets/webui/images/intro.games.mdpi.png
+SHA1-Digest: lMto/qNH2rt6SdKF4PwsgzFBAmU=
+
+Name: assets/webui/images/intro.leaderboards.hdpi.png
+SHA1-Digest: tdEEX8AWi4sOvwlm4UXkW48PsDo=
+
+Name: assets/webui/images/intro.leaderboards.mdpi.png
+SHA1-Digest: V4J73W9gxwgj+++EfbHDDoC1W1U=
+
+Name: assets/webui/images/loader.gif
+SHA1-Digest: UYtZWXPKzs5SDNCedzePsjC5Sig=
+
+Name: assets/webui/images/loading.spinner.hdpi.png
+SHA1-Digest: eErzc38iBqEeuF0vxQMjVED2vI8=
+
+Name: assets/webui/images/loading.spinner.light.hdpi.png
+SHA1-Digest: kn0hdfJ9z0VeCFvHadR05buXsbo=
+
+Name: assets/webui/images/loading.spinner.light.mdpi.png
+SHA1-Digest: EAMPQOJPlhLl4MmvOFx2T6xqcjA=
+
+Name: assets/webui/images/loading.spinner.mdpi.png
+SHA1-Digest: HVzKoDo6Dm/6fsPm4ngaox+MP7w=
+
+Name: assets/webui/images/loading.spinner.udpi.png
+SHA1-Digest: CG0MeZSbjv4m+nGvjmeTF1i0n5o=
+
+Name: assets/webui/images/logo.hdpi.png
+SHA1-Digest: qeCqcPHqm85AHIxGpliOeHCdbso=
+
+Name: assets/webui/images/logo.mdpi.png
+SHA1-Digest: F1iWb7I5tJv7870bu6m/YDpFm4U=
+
+Name: assets/webui/images/logo.small.hdpi.png
+SHA1-Digest: E0tVnTswJmGfDdIY2MxsBzNldZ8=
+
+Name: assets/webui/images/logo.small.mdpi.png
+SHA1-Digest: PFfzOcpWc3LVjxrkUZ4Spcf3e5k=
+
+Name: assets/webui/images/mid_body.png
+SHA1-Digest: rFXQPa9jWf/6noQk8az0n2Wfvx8=
+
+Name: assets/webui/images/of_logo.png
+SHA1-Digest: 39n4sHbSR1DzKgNW9uSPHOFjfps=
+
+Name: assets/webui/images/price_box.png
+SHA1-Digest: 2KK1Xtib26kxoU0DkPTSF0TrMCQ=
+
+Name: assets/webui/images/replay.hdpi.png
+SHA1-Digest: ffT07/1wFRWBxuY192GCw+RVupY=
+
+Name: assets/webui/images/replay.mdpi.png
+SHA1-Digest: gG6pqqoaSaAo/EdTpV1umJqjm44=
+
+Name: assets/webui/images/space.dark.hdpi.png
+SHA1-Digest: nSkXnar8ikjwtZR1bcAbVOCbuew=
+
+Name: assets/webui/images/space.dark.mdpi.png
+SHA1-Digest: gJ6Cr7vbyYmtkwEF/xUwEGdthVU=
+
+Name: assets/webui/images/space.grid.hdpi.png
+SHA1-Digest: jxtkfQaXsaawsITn3FMO6dEotr4=
+
+Name: assets/webui/images/space.grid.mdpi.png
+SHA1-Digest: rLWhtYxTHoV1g1/vbcIFuKwVNzA=
+
+Name: assets/webui/images/space.light.hdpi.png
+SHA1-Digest: 6MNfdHJ/2mYlSBLFXQ6lFmGrfA4=
+
+Name: assets/webui/images/space.light.mdpi.png
+SHA1-Digest: DX85SnJFXIY+uqE6HDj5oKa4wYs=
+
+Name: assets/webui/images/tab.active_indicator.hdpi.png
+SHA1-Digest: uGkBy+NZCPgLP0dZRnjlSgOL7Ug=
+
+Name: assets/webui/images/tab.active_indicator.mdpi.png
+SHA1-Digest: Ml0k0qgOMfl44lccJQcIC9wYa40=
+
+Name: assets/webui/images/tab.bg.hdpi.png
+SHA1-Digest: FjENUF+/OrVr3vtwi8KEPXUH8ng=
+
+Name: assets/webui/images/tab.bg.mdpi.png
+SHA1-Digest: 1gcGweqAdR0MjSEJqLMm9kyR1KM=
+
+Name: assets/webui/images/tab.bg_hit.hdpi.png
+SHA1-Digest: J+DbHTVQIp4wiPZfI4G8OIHF1hY=
+
+Name: assets/webui/images/tab.bg_hit.mdpi.png
+SHA1-Digest: GfAsg5NB+D4ri1LDEKpScpQPGxc=
+
+Name: assets/webui/images/tab.divider.hdpi.png
+SHA1-Digest: VetCxauJDUKlJcaHktAuKXdp+rw=
+
+Name: assets/webui/images/tab.divider.mdpi.png
+SHA1-Digest: 3hlkSQxUR1usZEqduTjizTt2yQI=
+
+Name: assets/webui/images/top_body.png
+SHA1-Digest: cKJF1oMjht8SZe21xlycJZEmXHc=
+
+Name: assets/webui/images/white_left_gradient.png
+SHA1-Digest: vdu3T13RDwBZS7S4Lot71cE012o=
+
+Name: assets/webui/images/white_right_gradient.png
+SHA1-Digest: fP8H6XOpVaqu0aUFxmeFyU8tqyc=
+
+Name: assets/webui/index.html
+SHA1-Digest: WxY8jY53kd9mH/t1TFdPJrv01ko=
+
+Name: assets/webui/intro/forgot_password.json
+SHA1-Digest: mpOeff7PB3tUScz9V0GcO6hVZXw=
+
+Name: assets/webui/intro/found_device.json
+SHA1-Digest: Xp4W1xHMcfXxlyadEEoDLAFdTRo=
+
+Name: assets/webui/intro/index.json
+SHA1-Digest: i21wQR+Z3oeGCN2DiM5DmdyZodA=
+
+Name: assets/webui/intro/login.json
+SHA1-Digest: gDaAcTlmNFWjprUVJqERLTnz9rU=
+
+Name: assets/webui/intro/multiple_accounts.json
+SHA1-Digest: hzHyftoVWOCxJePYTV+lxwy/gQ0=
+
+Name: assets/webui/intro/new_account.json
+SHA1-Digest: GUpeEtT6yULfOZ8CffJtks9tar0=
+
+Name: assets/webui/intro/tos.json
+SHA1-Digest: 7LP6Gs7sHOveY/zv5Xl/NdILpQc=
+
+Name: assets/webui/javascripts/att_spotlight.js
+SHA1-Digest: BShJKDuBFt5hYwr952W7JLsT+58=
+
+Name: assets/webui/javascripts/date-format.js
+SHA1-Digest: dp8kIXzGwlnL+5rT34W6G4oBsng=
+
+Name: assets/webui/javascripts/enable_feint.js
+SHA1-Digest: BkVbnk7IrGSTz2dE9NGCFbY+YWQ=
+
+Name: assets/webui/javascripts/game_channel.js
+SHA1-Digest: wQRAfUpR0G7FUln4pK0OL6J6SQ8=
+
+Name: assets/webui/javascripts/head.js
+SHA1-Digest: H9BTJkCrmCAHbH8VWYaXLmfxkRI=
+
+Name: assets/webui/javascripts/jquery.js
+SHA1-Digest: yJ939XmjZN98xFvyEU9VkyzLR7E=
+
+Name: assets/webui/javascripts/json2.js
+SHA1-Digest: DY2iy9VMiyyjFtEu93zCKBfTSvw=
+
+Name: assets/webui/javascripts/template.js
+SHA1-Digest: JJmqPUIO+VeTckAOT+pZ9mXSN5A=
+
+Name: assets/webui/javascripts/underscore.js
+SHA1-Digest: 7DsvizmcR5wDRSfN6cwKJYJzETA=
+
+Name: assets/webui/javascripts/webui-action.js
+SHA1-Digest: cVT0eJMqu84pH9MOmiLoQMOFj5c=
+
+Name: assets/webui/javascripts/webui-analytics.js
+SHA1-Digest: JeTSsLxBUgkZgcymEP0v+RSlKno=
+
+Name: assets/webui/javascripts/webui-api.js
+SHA1-Digest: ZikqHGV/azziCpeP8h66GVnNbtg=
+
+Name: assets/webui/javascripts/webui-core.js
+SHA1-Digest: W7AXaGEqcjLjic65+15DlwK4FG0=
+
+Name: assets/webui/javascripts/webui-helper.js
+SHA1-Digest: W78yJZC2txHEgI2VWWNFfDAnWI8=
+
+Name: assets/webui/javascripts/webui-touch.js
+SHA1-Digest: 54jnjAu6RfDwZko3dhmpc8lUNSo=
+
+Name: assets/webui/javascripts/webui.coffee
+SHA1-Digest: 6ljpjGYkPzySGpcBKm7XdKY8xhE=
+
+Name: assets/webui/javascripts/webui.js
+SHA1-Digest: 5wzfdwBAIjU6HFokAgHTB9dT/0g=
+
+Name: assets/webui/manifest.plist
+SHA1-Digest: oZkl7baAjV+y7XknhgAulRfBUgk=
+
+Name: assets/webui/settings/email.json
+SHA1-Digest: VlTxfVh5uJIOvXSMFzaHJ+1yxQM=
+
+Name: assets/webui/settings/forgot_password.json
+SHA1-Digest: 8NO980InRYSU9CBLY5S8bqpowmc=
+
+Name: assets/webui/settings/index.json
+SHA1-Digest: f0AEx8f4w8TZzCz15tynZGBbuXI=
+
+Name: assets/webui/settings/name.json
+SHA1-Digest: MrfEB98VTiGxpFrb1GzINL4ojI4=
+
+Name: assets/webui/settings/password.json
+SHA1-Digest: UGKwUGVEdvf1X/4FFDTmgpKZ9i4=
+
+Name: assets/webui/settings/remove_account.json
+SHA1-Digest: ox/32JKd2TI42fVRyVttuQWOhs8=
+
+Name: assets/webui/stylesheets/att_spotlight.css
+SHA1-Digest: ILkfdR3/i21QxG0olkV48JnNTJY=
+
+Name: assets/webui/stylesheets/game_channel.css
+SHA1-Digest: UA1zl8JelNjBV7qfcABwVHHDTP4=
+
+Name: assets/webui/stylesheets/game_channel.orig.css
+SHA1-Digest: QZrfao452vjmwS5BvUDWGgUgg0I=
+
+Name: assets/webui/stylesheets/webui.css
+SHA1-Digest: MLd8wRFHKWqjNs68HeHHsiwQB0c=
+
+Name: classes.dex
+SHA1-Digest: mQVrbw9DpMC99V5rYtINI0NHZ8c=
+
+Name: com/paypal/android/utils/data/data.bin
+SHA1-Digest: mF4nvdNuABu4NJfOdGGaPJ3C5aQ=
+
+Name: com/paypal/android/utils/data/locale.bin
+SHA1-Digest: 9kRJQkCdeEqok8GnOAIagiEE3d0=
+
+Name: lib/armeabi/libgamelib.so
+SHA1-Digest: 6sks8+y13isjZYfQC/EKYcq81cs=
+
+Name: lib/armeabi/libglujni.so
+SHA1-Digest: pPjHabw7+EC2IoqgT0eD4R9jnFg=
+
+Name: res/color/custom_button_text_color_selector.xml
+SHA1-Digest: FX9TNzFPeD5tFAyV/3mutYKzf5k=
+
+Name: res/drawable-anydpi-v21/save_green.xml
+SHA1-Digest: I2Ecr0nj+vo52XY2G4PNtbAam2E=
+
+Name: res/drawable-anydpi-v21/save_red.xml
+SHA1-Digest: FGpAjFwV6nL+/++tnj8AebhLitA=
+
+Name: res/drawable-hdpi/of_achievement_icon_frame.png
+SHA1-Digest: ZNIVAKaf18zsDhhDz7xWgFhgz58=
+
+Name: res/drawable-hdpi/of_achievement_notification_bkg.png
+SHA1-Digest: cOKAyzpezWVudDjVgrOEKPw62Iw=
+
+Name: res/drawable-hdpi/of_achievement_notification_locked.png
+SHA1-Digest: M+zFasf/WAI9/R+0NOD/ZkK+NvY=
+
+Name: res/drawable-hdpi/of_icon_dashboard_exit.png
+SHA1-Digest: yygUbj+zvsSS1OGugJfFJOP8tZE=
+
+Name: res/drawable-hdpi/of_icon_dashboard_home.png
+SHA1-Digest: i54mF92gVuH2O4VzYFbtDgMSlrQ=
+
+Name: res/drawable-hdpi/of_icon_dashboard_settings.png
+SHA1-Digest: mbk+NK59JM38DEXkTOXnr+qihcE=
+
+Name: res/drawable-hdpi/of_notification_bkg.png
+SHA1-Digest: J1IEge3bvA0vHJe+5gI1vYnFZoM=
+
+Name: res/drawable-hdpi/save_green.png
+SHA1-Digest: ArOTansK88Ia7/n1H7Zgqx3lFqU=
+
+Name: res/drawable-hdpi/save_red.png
+SHA1-Digest: EQkWALIEwYwlIuly1xCLh1UQisU=
+
+Name: res/drawable-ldpi/save_green.png
+SHA1-Digest: LSVddzoNr55BInEQqIBG8Zk32KI=
+
+Name: res/drawable-ldpi/save_red.png
+SHA1-Digest: 87oSRURxjp6NMJbwDGJSqz3ixoI=
+
+Name: res/drawable-mdpi/save_green.png
+SHA1-Digest: a2tCtxaPKQ5QU9t/qjE27HR8ViY=
+
+Name: res/drawable-mdpi/save_red.png
+SHA1-Digest: fmVQIJCJey7cK15Df+zf8nQ51YM=
+
+Name: res/drawable-xhdpi/save_green.png
+SHA1-Digest: i/Nqpk6MTyyBz7n/KiWoqrfR15o=
+
+Name: res/drawable-xhdpi/save_red.png
+SHA1-Digest: kqzqEXvcF1NzIBti4KgctvXl36Y=
+
+Name: res/drawable-xxhdpi/save_green.png
+SHA1-Digest: 14i9LdREKyrPxIXN98GoJuk6fR8=
+
+Name: res/drawable-xxhdpi/save_red.png
+SHA1-Digest: JGbURmbvSE6xGXQ9KVeLOAh36q4=
+
+Name: res/drawable-xxxhdpi/save_green.png
+SHA1-Digest: 7yafxSJCtEuPNbcTZiPH5ajEMus=
+
+Name: res/drawable-xxxhdpi/save_red.png
+SHA1-Digest: ovxyaAJTd7OLQBOhI42YRa062XE=
+
+Name: res/drawable/buttonc.png
+SHA1-Digest: aBNHPK+F6yLh5/Ly1YpJlqM8wvU=
+
+Name: res/drawable/buttonl.png
+SHA1-Digest: s1p6ql8xqD7xkGNrnhvg2I582rY=
+
+Name: res/drawable/buttonr.png
+SHA1-Digest: RJ64I/HLArjzmh8phpEjxHprgnc=
+
+Name: res/drawable/custom_bg.png
+SHA1-Digest: IQycHGYyIUXoDeTdcbT6HaaPhwk=
+
+Name: res/drawable/custom_logo.png
+SHA1-Digest: kW03EK1i/ypELZby/+JdI1a7j/s=
+
+Name: res/drawable/custom_toggle_checkbox.xml
+SHA1-Digest: SXyZOrmCUyLUGGw+utKYZcGN8Cw=
+
+Name: res/drawable/facebook_icon.png
+SHA1-Digest: PDgDHoip/6HBjLGwRLz06l35sy4=
+
+Name: res/drawable/glu_logo_muted.png
+SHA1-Digest: IeuIwlYZ7F1NOggDh2XQMH3JDjM=
+
+Name: res/drawable/glucursor.png
+SHA1-Digest: RIkRErZmnYmzHQKdA6cMnvqIQqU=
+
+Name: res/drawable/gns_about.png
+SHA1-Digest: 6YT1BgY0I9bdFLrQs29D6kgtPLI=
+
+Name: res/drawable/gns_backbutton.png
+SHA1-Digest: GJOjphsmkn9M9AA5zzroURh5JpU=
+
+Name: res/drawable/gns_blog.png
+SHA1-Digest: x5NjADN5s4EeNLuOWns3hafBYxw=
+
+Name: res/drawable/gns_button_bg.png
+SHA1-Digest: Jhtz6xpXmgouJc3fbkfYAfkGlPM=
+
+Name: res/drawable/gns_feedback.png
+SHA1-Digest: U6p1HbeNLoFbSn4yDPfFxLT66NQ=
+
+Name: res/drawable/gns_games.png
+SHA1-Digest: SUo0aVA290IjWWRjxGRKxa9eXXQ=
+
+Name: res/drawable/gns_glu_button1.png
+SHA1-Digest: o7ZPEyGKJmUP3seHZpJb5IB1Yf8=
+
+Name: res/drawable/gns_glu_button2.png
+SHA1-Digest: gaQHgz96cwixFKgY58XSvzkGbqU=
+
+Name: res/drawable/gns_glu_button3.png
+SHA1-Digest: PSOqG2tFOS0/6vyxchW9i6hYgKM=
+
+Name: res/drawable/gns_glu_button4.png
+SHA1-Digest: u8hNPV83n19JIT2Os9rxcjSYpy8=
+
+Name: res/drawable/gns_highscore.png
+SHA1-Digest: ihHQvmXGcUyQAateerTtvaAUzu0=
+
+Name: res/drawable/gns_settings.png
+SHA1-Digest: pEQbTObDFWIv3yvBLA5fgnUcHP0=
+
+Name: res/drawable/gns_settings_bg.png
+SHA1-Digest: 3+mDF8g6eDLtePOT3KFoK8STkBo=
+
+Name: res/drawable/gns_settings_bg_large.png
+SHA1-Digest: zljp2FA2zd0wFH3P7w5FR01D3mw=
+
+Name: res/drawable/gns_slider.png
+SHA1-Digest: C8cBtayV3mVw6Rntcr3cU9EFDBE=
+
+Name: res/drawable/gns_switch_off.png
+SHA1-Digest: f+uWkuckq7yKvfTAxpJduH2kKoQ=
+
+Name: res/drawable/gns_switch_off_highlight.png
+SHA1-Digest: DBwbtTkDYadTMjbLOHXnrOd9kOE=
+
+Name: res/drawable/gns_switch_on.png
+SHA1-Digest: wJj7T0ASfKPIgGfDVyMKnx7Hdko=
+
+Name: res/drawable/gns_switch_on_highlight.png
+SHA1-Digest: ha88Q+H+eOXGNiZwmd9KJ9JypDg=
+
+Name: res/drawable/google_checkout.png
+SHA1-Digest: 8mupeTU4ASNy3xmKiWdG6VO2+J8=
+
+Name: res/drawable/hcback.png
+SHA1-Digest: 5P5QPuWij87dkXgQxv4zlSdn0Vw=
+
+Name: res/drawable/hchome.png
+SHA1-Digest: qPWr8eZzK6pZDrO6fYUsJwMZm1c=
+
+Name: res/drawable/icon.png
+SHA1-Digest: 0eIQknm/ZEx/41MiQsp07nFk0RE=
+
+Name: res/drawable/nonmodalalert.png
+SHA1-Digest: pTp1/qomML3bfzpGQpE3yqZ5/eA=
+
+Name: res/drawable/of_achievement_icon_frame.png
+SHA1-Digest: 6Bi2fSS1hQUeYhkYLudaPgopImc=
+
+Name: res/drawable/of_achievement_icon_locked.png
+SHA1-Digest: eufeEdwoFz01utFyPIcYjn85udQ=
+
+Name: res/drawable/of_achievement_icon_unlocked.png
+SHA1-Digest: 8rq748+PduFNJunrSLshHg0/KNI=
+
+Name: res/drawable/of_achievement_notification_bkg.png
+SHA1-Digest: f7JSW2ESM3z1rHMpUQclyTCJ2qc=
+
+Name: res/drawable/of_achievement_notification_locked.png
+SHA1-Digest: YmXaoZ+LOmBbsYLocOF8VWwFimQ=
+
+Name: res/drawable/of_feint_points_white.png
+SHA1-Digest: ZltL+at21h0PpHrFO6I2JE0+jU0=
+
+Name: res/drawable/of_icon_dashboard_exit.png
+SHA1-Digest: hg31+QcSxb6uaUHTmIsQISBLEO8=
+
+Name: res/drawable/of_icon_dashboard_home.png
+SHA1-Digest: ougUMiRNo7gsJrqKD29wx6MW/jQ=
+
+Name: res/drawable/of_icon_dashboard_settings.png
+SHA1-Digest: awdhMjUqninBQcHtiuZ/+bEezD4=
+
+Name: res/drawable/of_icon_highscore_notification.png
+SHA1-Digest: 2C9tYN4EEGkWXJa5gM9Wr9GsFMg=
+
+Name: res/drawable/of_native_loader.png
+SHA1-Digest: 4Im4Bbi26lY2DXZcR+zy4LejpnU=
+
+Name: res/drawable/of_native_loader_progress.xml
+SHA1-Digest: Gj9K+Z05/9xk3bC7bwLSjaJm5Iw=
+
+Name: res/drawable/of_native_loader_progress_01.png
+SHA1-Digest: M0iEMWSxl9QGEmjk/q6AC3oArKA=
+
+Name: res/drawable/of_native_loader_progress_02.png
+SHA1-Digest: D9CSRMVRcvNVPQstS0F8RGkqmW8=
+
+Name: res/drawable/of_native_loader_progress_03.png
+SHA1-Digest: 2YrpBnwox/Bbo1h9TAndXLbOe9E=
+
+Name: res/drawable/of_native_loader_progress_04.png
+SHA1-Digest: X4d7hsgTpS02Evfl3fFXzZNd/1s=
+
+Name: res/drawable/of_native_loader_progress_05.png
+SHA1-Digest: ZwiN+/QmM6nWU/lyamfRQ6bANYU=
+
+Name: res/drawable/of_native_loader_progress_06.png
+SHA1-Digest: 8Lnj5TJ3CVrukIzaPUj7ItOlWqU=
+
+Name: res/drawable/of_native_loader_progress_07.png
+SHA1-Digest: GlTOWIqsyh3NQGNsXgSGTTpmUkE=
+
+Name: res/drawable/of_native_loader_progress_08.png
+SHA1-Digest: MU4b3JEnmMtRtaljZfXR8GuD41o=
+
+Name: res/drawable/of_native_loader_progress_09.png
+SHA1-Digest: 7nsRh0dQ3Sho1JTC13zWIlBJmUs=
+
+Name: res/drawable/of_native_loader_progress_10.png
+SHA1-Digest: oV8mo+/3kCybPAK1VMHGFhhLK9E=
+
+Name: res/drawable/of_native_loader_progress_11.png
+SHA1-Digest: SGHmXn5+d7LsKm1Araoe5ocsKQQ=
+
+Name: res/drawable/of_native_loader_progress_12.png
+SHA1-Digest: hDQYOyJ9oq25I37dm4iTJJ/bUGM=
+
+Name: res/drawable/of_notification_bkg.png
+SHA1-Digest: aAfEckaU4eFWb3rmoEMOChNhGzo=
+
+Name: res/drawable/paypal_down.png
+SHA1-Digest: hshTdC1N3+XoP5w9D696HzbyLWI=
+
+Name: res/drawable/paypal_up.png
+SHA1-Digest: XURm2tSRj9v/715K4FMzwJBIXic=
+
+Name: res/drawable/progress.png
+SHA1-Digest: nF8hKy1RQhfPw6Nmf3SLpzSkNzM=
+
+Name: res/drawable/sony_icon.png
+SHA1-Digest: NImKrgOgnlv+WTr82sr1KWXa+Xk=
+
+Name: res/drawable/tapjoy_buttonnormal.xml
+SHA1-Digest: VYxMjeuenEvL+GDbPrsbnPhQ0yE=
+
+Name: res/drawable/tapjoy_buttonselected.xml
+SHA1-Digest: MHaJpDvCD89FR1wLeCf9cP/Vb+4=
+
+Name: res/drawable/tapjoy_gradientline.xml
+SHA1-Digest: duYuccOuzuc3fKG2JK65fFMxjyk=
+
+Name: res/drawable/tapjoy_tablerowstates.xml
+SHA1-Digest: xIIW6HEyRXEF361ytaAvQ2cLaBY=
+
+Name: res/drawable/tapjoy_virtualgoods_error.png
+SHA1-Digest: gXMWUSmZtIQzaw+hQ7cbV/aKLZ0=
+
+Name: res/drawable/tapjoy_virtualgoods_row_bg.xml
+SHA1-Digest: nzrcbzbcpS5YoIhlPp25N4cUgyw=
+
+Name: res/drawable/titlebar.png
+SHA1-Digest: 1pq31fbmxqR3wGwjLqZmlrxkiBw=
+
+Name: res/layout/main_activity_extraction.xml
+SHA1-Digest: E/sDAALiHv7nRaKNBhRlE2fFGUg=
+
+Name: res/layout/main_activity_extraction_progress_dialog.xml
+SHA1-Digest: SQqmg+5aGDmKzT3ZZO7ZBAmog6k=
+
+Name: res/layout/main_activity_scan_progress_dialog.xml
+SHA1-Digest: E9sewrJa0AC8bkk1UiAqCGEU9EM=
+
+Name: res/layout/of_achievement_notification.xml
+SHA1-Digest: yVcn6L14R1XA/e4swtF8lE/ynYQ=
+
+Name: res/layout/of_native_loader.xml
+SHA1-Digest: GyTU28TnkNi6ExlNwM8DncQ3p4I=
+
+Name: res/layout/of_nativebrowser.xml
+SHA1-Digest: WfJ3Yy9+ojH6DRQlocV3ZUbW0t8=
+
+Name: res/layout/of_simple_notification.xml
+SHA1-Digest: Tm0YDPzCZnfNuCN5v9gaPE16FxU=
+
+Name: res/layout/of_two_line_notification.xml
+SHA1-Digest: kpTX1TwtNfv8n8Ged7E+b/i5m9M=
+
+Name: res/layout/of_webnav.xml
+SHA1-Digest: QOP59XDiS66HwmyZFcnpeIFXYy0=
+
+Name: res/layout/tapjoy_featured_app_web_view.xml
+SHA1-Digest: qD120fW/xh8at4Ujy7L74B3CkME=
+
+Name: res/layout/tapjoy_offers_web_view.xml
+SHA1-Digest: mMuSdZO2WZoRylnE1P6ombbs2qA=
+
+Name: res/layout/tapjoy_virtualgoods.xml
+SHA1-Digest: Mj0dIt7yYSM7PbmPwBrw+ielQ10=
+
+Name: res/layout/tapjoy_virtualgoods_purchaseitems_row.xml
+SHA1-Digest: HVHRz0EqnyBFlZ5jWsUT9Zh3QL8=
+
+Name: res/layout/tapjoy_virtualgoods_reconnectvirtualgoods.xml
+SHA1-Digest: icdWGiVrAHUqcmroFqnQD6dZWk8=
+
+Name: res/layout/tapjoy_virtualgoods_row.xml
+SHA1-Digest: RyAXAXZmoeJtiDQfzsZsIWF1Jmk=
+
+Name: res/menu/of_dashboard.xml
+SHA1-Digest: uaBP04MVZ8ccWYY+3AxqHgsGwdU=
+
+Name: res/mipmap-hdpi/ic_launcher.png
+SHA1-Digest: aZ2IhloTd2JHvYPbkRiUCTXN5Uw=
+
+Name: res/mipmap-hdpi/ic_launcher_round.png
+SHA1-Digest: Fk8oFtdmkIaemujnE5t3o9blgZQ=
+
+Name: res/mipmap-mdpi/ic_launcher.png
+SHA1-Digest: +Ef1xkDO2UL7tiHZZ8H/+9ntaoc=
+
+Name: res/mipmap-mdpi/ic_launcher_round.png
+SHA1-Digest: UNAjlxwY28fthnALnxeGuCSliCc=
+
+Name: res/mipmap-xhdpi/ic_launcher.png
+SHA1-Digest: a1PAMb5QrRJXkh6vBXoT22544Hc=
+
+Name: res/mipmap-xhdpi/ic_launcher_round.png
+SHA1-Digest: ojOZolgflmexWLoeB6GuNROgpz0=
+
+Name: res/mipmap-xxhdpi/ic_launcher.png
+SHA1-Digest: Tt9uxczp0wUIyHO8mpR1aG6HZ9s=
+
+Name: res/mipmap-xxhdpi/ic_launcher_round.png
+SHA1-Digest: K+OiRtXuDvrGMyWpYTYI445btgA=
+
+Name: res/mipmap-xxxhdpi/ic_launcher.png
+SHA1-Digest: 4DCN8doeJZD6vZuRGqoiOA3enwE=
+
+Name: res/mipmap-xxxhdpi/ic_launcher_round.png
+SHA1-Digest: wHqVUs4rgYdpsxBqwLMb5HZKV6Y=
+
+Name: res/raw/events.dat
+SHA1-Digest: 3NL0U05V81gUANPw2Oul5rrchWc=
+
+Name: res/raw/events_test.dat
+SHA1-Digest: w7CCUJi62c+59xmqxHKKzB6VY4M=
+
+Name: res/raw/fbdefault.png
+SHA1-Digest: lk9/Vcfs+2eWATnNJvrYtyI2Ucw=
+
+Name: res/raw/properties.dat
+SHA1-Digest: a1cNug5oZuZC65/bGMHjHpdZ6cU=
+
+Name: res/raw/res_map.dat
+SHA1-Digest: qN02LuQIKNtRjDzZt4MhoBGx33g=
+
+Name: resources.arsc
+SHA1-Digest: Ye7n/5oB5e64Htuq9iJU5Dd4YIs=
+
