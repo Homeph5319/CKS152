@@ -8,7 +8,7 @@ sdkInfo:
   targetSdkVersion: 19
 versionInfo:
   versionCode: 152
-  versionName: 1.5.2
+  versionName: 1.5.2-Patch1
 resourcesInfo:
   packageId: 127
 doNotCompress:
